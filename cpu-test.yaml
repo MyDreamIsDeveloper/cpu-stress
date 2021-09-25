@@ -1,8 +1,8 @@
 config:
   target: "http://34.64.185.236"
   phases:
-    - duration: 60
-      arrivalRate: 1
+    - duration: 360
+      arrivalRate: 2
       name: Warm up
 scenarios:
   - name: "CPU Stress Practice"
